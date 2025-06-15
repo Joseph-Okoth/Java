@@ -76,7 +76,7 @@ public class Test{
 
 /* Bitwise inclusive OR and assignment operator. 
  * Example: C |= 2 is same as C = C | 2
-*/
+ */
         c |= a;
         System.out.println("c |= a = " + c);
     }

@@ -1,7 +1,7 @@
-public class Test(
+public class Test{
     public static void main(String args[]){
         int a = 60; /* 60 = 0011 1100 */
-        int a = 13; /* 13 = 0000 1101 */
+        int b = 13; /* 13 = 0000 1101 */
         int c = 0;
 
 // Binary AND Operator copies a bit to the result if it exists in both operands.     
@@ -38,4 +38,4 @@ public class Test(
         c = a >>> 2; /* 15 = 0000 1111 */
         System.out.println("a >>> 2 = " + c);
     }
-)
+}

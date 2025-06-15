@@ -14,10 +14,10 @@ public class InstanceCounter{
     }
 
     public static void main(String[] arguments){
-        System.out.println("Starting with "+ InstanceCounter.getCount() + "instances");
+        System.out.println("Starting with "+ InstanceCounter.getCount() + " instances");
         for (int i = 0; i < 500; ++i){
             new InstanceCounter();
         }
-        System.out.println("Created " + InstanceCounter.getCount() + "Instances");
+        System.out.println("Created " + InstanceCounter.getCount() + " Instances");
     }
 }

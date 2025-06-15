@@ -11,7 +11,7 @@
 9. Arithmetic_Operators
 10. Relational Operators
 11. Bitwise_Operators
-12. Logic_Operators
+12. Logical_Operators
 13. Assignment_Operators
 14. Miscellaneous_Operators
 15. 
