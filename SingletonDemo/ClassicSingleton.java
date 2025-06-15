@@ -5,8 +5,8 @@ public class ClassicSingleton {
     }
     public static ClassicSingleton getInstance(){
         if(instance == null) {
-            instacne = new ClassicSingleton();
+            instance = new ClassicSingleton();
         }
-        return instacne;
+        return instance;
     }
 }

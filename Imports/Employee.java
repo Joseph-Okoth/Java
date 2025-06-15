@@ -11,7 +11,7 @@ public class Employee{
         this.name = name;
     }
     //Assign the Age of the Employee to the variable age
-    public void empAge(int empAge)[]{
+    public void empAge(int empAge){
         age = empAge;
 }
 
@@ -28,7 +28,7 @@ public class Employee{
     public void printEmployee(){
         System.out.println("Name:"+ name);
         System.out.println("Age:"+ age);
-        System.out.println("Designation"+ designation);
+        System.out.println("Designation:"+ designation);
         System.out.println("Salary:"+ salary);
     }
 }

@@ -1,5 +1,6 @@
-/*Her age (Local Variable) is defined inside pupAge() method 
-and it scope is only limited to this method*/
+/* Her age (Local Variable) is defined inside pupAge() 
+ * method and it scope is only limited to this method
+ */
 
 public class Test{
     public void pupAge(){

@@ -20,7 +20,12 @@ public class Employee{
     }
 
     //THis method prints the employee details.
-    public void main(String args[]){
+    public void printEmp(){
+        System.out.println("Name :" + name);
+        System.out.println("Salary :" + salary);
+    }
+
+    public static void main(String args[]){
         Employee empOne = new Employee("Ransika");
         empOne.setSalary(1000);
         empOne.printEmp();

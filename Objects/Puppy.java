@@ -8,7 +8,7 @@ public class Puppy{
     }
 
     public void setAge(){
-        puppyAge = age;
+        puppyAge = 2;
     }
 
     public int getAge(){
@@ -21,7 +21,7 @@ public class Puppy{
         Puppy myPuppy = new Puppy("tommy");
 
         // Call class method to set Puppy's age
-        myPuppy.setAge(2);
+        myPuppy.setAge();
 
         //Call another method to get puppy's age
         myPuppy.getAge();
